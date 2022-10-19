@@ -1,8 +1,13 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import { PrimaryHeading } from '@/components'
+import { useContext } from 'react'
+import AuthContext from 'context/auth/AuthContext'
 
 const Home: NextPage = () => {
+  const authContext = useContext(AuthContext)
+  console.log({ authContext })
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
@@ -17,6 +22,10 @@ const Home: NextPage = () => {
             Next.js!
           </a>
         </h1>
+
+        <PrimaryHeading >
+          Windy Next.js!
+        </PrimaryHeading>
 
         <p className="mt-3 text-2xl">
           Get started by editing{' '}
