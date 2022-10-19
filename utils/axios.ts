@@ -1,6 +1,6 @@
-import axios from "axios"
+import axios from 'axios'
 
-const token = localStorage.getItem("token")
+const token = localStorage.getItem('token')
 
 export const baseAxios = axios.create({
   baseURL: process.env.NEXT_PUBLIC_BASE_URL,

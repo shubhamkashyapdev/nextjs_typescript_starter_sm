@@ -1,7 +1,7 @@
-import React, { FC, useReducer } from "react"
-import AuthContext from "./AuthContext"
-import authReducer from "./AuthReducer"
-import { SET_LOADING } from "./AuthTypes"
+import React, { FC, useReducer } from 'react'
+import AuthContext from './AuthContext'
+import authReducer from './AuthReducer'
+import { SET_LOADING } from './AuthTypes'
 
 const Provider = AuthContext.Provider
 

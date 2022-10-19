@@ -1,4 +1,4 @@
-import { SET_LOADING } from "./AuthTypes"
+import { SET_LOADING } from './AuthTypes'
 
 const authReducer = (state: any, action: any) => {
   const { type, payload } = action

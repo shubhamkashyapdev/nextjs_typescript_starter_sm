@@ -23,9 +23,7 @@ const Home: NextPage = () => {
           </a>
         </h1>
 
-        <PrimaryHeading >
-          Windy Next.js!
-        </PrimaryHeading>
+        <PrimaryHeading>Windy Next.js!</PrimaryHeading>
 
         <p className="mt-3 text-2xl">
           Get started by editing{' '}
